@@ -1,0 +1,19 @@
+﻿@{
+
+}
+
+<div class="row h-100">
+    <div class="d-flex align-items-center h-100">
+        <div class="card col-6 p-5 mx-auto">
+            <form method="post" enctype="multipart/form-data">
+                <div class="mb-4">
+                    <h3>Выберите файл</h3>
+                    <br />
+                    <input type="file" class="form-control" name="uploadedFile" id="exampleInputFile" aria-describedby="fileHelp">
+                    <output id="error">@ViewData["Error"]</output>
+                </div>
+                <button type="submit" class="btn btn-primary">Перевести</button>
+            </form>
+        </div>
+    </div>
+</div>

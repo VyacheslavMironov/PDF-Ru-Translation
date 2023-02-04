@@ -1,0 +1,41 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+main {
+    position: relative;
+    top: 15em;
+}
+html {
+  position: relative;
+}
+
+body {
+  margin-bottom: 60px;
+  color: #fff;
+}
+html,
+body {
+    background-color: #38b0cb;
+    height: 100%;
+}
+
+#content{
+    min-height: 100%;
+}
+.card {
+    background-color: #e9e9e9;
+    color: #222!important;
+}
+#error {
+    color: #c95454;
+}
